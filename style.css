@@ -290,6 +290,10 @@ section {
   margin-left: 170px;
 
 }
+@media (max-width: 576px) {
+  ..project-heading { 
+  margin-left: 50px;
+
 
 .projects {
   background: white;

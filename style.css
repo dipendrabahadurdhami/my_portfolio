@@ -287,13 +287,10 @@ section {
 }
 
 .project-heading { 
-  margin-left: 170px;
+  text-align: center;
 
 }
-@media (max-width: 576px) {
-  ..project-heading { 
-  margin-left: 50px;
-  }
+
 
 
 

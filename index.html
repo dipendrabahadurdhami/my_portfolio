@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>My Portfolio</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  
+
+<header>
+  <nav class="navbar">
+    <div class="logo">MyPortfolio</div>
+    <div class="contact-info">
+      <a href="tel:+9779809461534">+9779809461534 &nbsp;&nbsp; Kathmandu,&nbspNepal</a>
+      <a href="mailto:dipendrabahadurdhami77@gmail.com">dipendrabahadurdhami77@gmail.com</a>
+    </div>
+  </nav>
+</header>
+
+  
+  
+  <section id="home" class="hero">
+    <button id="theme-toggle" class="hero-toggle">🌙</button>
+    <div class="hero-content scroll-reveal">
+      <h1>Hello, I’m <span class="highlight">Dipendra Dhami</span></h1>
+      <p>A passionate <span id="role"></span></p>
+      <button class="btn">View My Work</button>
+    </div>
+    <div class="scroll-indicator">⌄</div>
+  </section>
+  
+  <section id="projects" class="projects scroll-reveal">
+    <div class="project-heading"><h2>My Projects</h2></div>
+
+    <!-- Filter Buttons 
+    <div class="filter-buttons">
+      <button class="filter-btn active" data-category="all">All</button>
+      <button class="filter-btn" data-category="web">Web</button>
+      <button class="filter-btn" data-category="security">Security</button>
+      <button class="filter-btn" data-category="tools">Tools</button>
+    </div>
+    -->
+
+   
+    <div class="project-grid">
+     
+      <div class="project-card scroll-reveal" data-category="mobile app"><h3>Signify A Sign Interpreter App</h3> <div class="discription">For my final semester project, our team developed an application to bridge communication
+gaps for hearing-impaired users, applying Machine Learning concepts learned in a ML
+workshop. The application is user-friendly, accessible, and fully functional</div></div>
+      <div class="project-card scroll-reveal" data-category="Web"><h3>apitickets.com </h3><div class="discription">Developed independently using PHP and XAMPP (front-end, back-end, database) and
+applied QA testing with Burp Suite, gaining practical knowledge of OWASP Top 10
+vulnerabilities. The project is live online, demonstrating hands-on development and security</div></div>
+
+ <div class="project-card scroll-reveal" data-category="Web"><h3>Own Portfolio</h3><div class="discription">Developed independently using HTML, CSS, and JavaScript, this portfolio showcases my skills and projects with a clean, responsive design. Smooth animations and gradient effects enhance visual appeal, demonstrating practical development skills and creativity.</div></div>
+
+
+    
+  </section>
+  
+
+<section id="about" class="about scroll-reveal">
+  <div class="about-container">
+    
+
+    <div class="about-photo">
+      <img src="photo.png" alt="My Photo">
+    </div>
+
+ 
+    <div class="vertical-line"></div>
+
+    
+    <div class="about-me">
+      <h3>About Me</h3>
+      <p>
+       Aspiring computer engineer with a strong foundation in science and engineering, skilled in analytical thinking and problem-solving. Spent a couple of months actively engaged in bug hunting, gaining practical experience in identifying and analyzing software vulnerabilities. Familiar with modern programming languages and cybersecurity tools, constantly exploring new technologies to enhance technical proficiency. Strong team collaborator with effective communication skills, contributing to projects from conception to deployment.
+      </p>
+    </div>
+
+  
+    <div class="about-middle">
+      <h3>Education</h3>
+      <p>
+        Bachelor of Engineering in Computer Science [2021-2025] from Madan Bhandari College of Engineering,
+affiliated with Pokhara University, awarded a full scholarship by the university. All semesters
+completed; final semester result pending.
+      </p>
+      <br>
+      <p>
+        Completed Higher Secondary Education in Science [2018-2020] with a CGPA of 2.92, building a strong
+foundation in scientific and mathematical principles and developing analytical and
+problem-solving skills for engineering studies.
+      </p>
+    </div>
+
+   
+    <div class="about-last">
+      <h3>Skills [Basics]</h3>
+      <p>
+        1. Programming & Scripting: Python, JavaScript, PHP, Bash
+      </p>
+      <p>
+        2. Web Development: Front-end/Back-end (HTML, CSS, JavaScript)
+      </p>
+      <p>
+        3. Cybersecurity & Bug Hunting: Vulnerability analysis, OWASP Top 10, Burp Suite Pro, Subdomain enumeration
+      </p>
+      <p>
+        4. Tools & Platforms: Git/GitHub, Kali Linux, Nmap, httpx, Subfinder, Postman
+      </p>
+      <p>
+        5. Soft Skills: Analytical thinking, problem-solving, teamwork, effective communication, eagerness to learn
+      </p>
+    </div>
+  </div>
+</section>
+
+  
+
+  <script src="script.js"></script>
+ 
+</body>
+</html>
+
+<footer class="footer">
+  <div class="footer-container">
+    <div class="social-links">
+      
+      <a href="https://github.com/yourusername" target="_blank" aria-label="GitHub">
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="white">
+          <path d="M12 .5C5.65.5.5 5.65.5 12c0 5.1 3.3 9.4 7.9 10.9.6.1.8-.3.8-.6v-2.2c-3.2.7-3.9-1.5-3.9-1.5-.5-1.2-1.2-1.5-1.2-1.5-1-.7.1-.7.1-.7 1.1.1 1.7 1.2 1.7 1.2 1 .1 1.5-.7 1.8-1.1.1-.8.4-1.2.7-1.5-2.5-.3-5.1-1.3-5.1-5.8 0-1.3.5-2.4 1.2-3.2-.1-.3-.5-1.5.1-3.1 0 0 1-.3 3.3 1.2a11.3 11.3 0 0 1 6 0C17.7 2 18.7 2.3 18.7 2.3c.6 1.6.2 2.8.1 3.1.8.8 1.2 1.9 1.2 3.2 0 4.5-2.6 5.5-5.1 5.8.4.3.7.9.7 1.8v2.6c0 .3.2.7.8.6A10.5 10.5 0 0 0 23.5 12c0-6.35-5.15-11.5-11.5-11.5z"/>
+        </svg>
+      </a>
+
+    
+      <a href="https://linkedin.com/in/yourusername" target="_blank" aria-label="LinkedIn">
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="white">
+          <path d="M22.225 0H1.771C.792 0 0 .774 0 1.729v20.542C0 23.226.792 24 1.771 24h20.451C23.207 24 24 23.226 24 22.271V1.729C24 .774 23.207 0 22.225 0zM7.061 20.452H3.539V9h3.522v11.452zM5.3 7.578a2.037 2.037 0 1 1 0-4.074 2.037 2.037 0 0 1 0 4.074zm15.152 12.874h-3.522v-5.607c0-1.337-.025-3.058-1.865-3.058-1.867 0-2.152 1.456-2.152 2.961v5.704H9.361V9h3.381v1.561h.048c.471-.89 1.62-1.828 3.335-1.828 3.563 0 4.218 2.345 4.218 5.389v6.87z"/>
+        </svg>
+      </a>
+    </div>
+    <p>&copy; 2025 Dipendra Dhami. All rights reserved.</p>
+  </div>
+</footer>

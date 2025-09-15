@@ -1,5 +1,5 @@
 // Typing effect for roles
-const roles = ["Bug Hunter", "Security Tester", "Web Developer", "Problem Solver"];
+const roles = [ "Video Editor", "Web Developer", "Problem Solver"];
 let roleIndex = 0;
 let charIndex = 0;
 const roleElement = document.getElementById("role");
